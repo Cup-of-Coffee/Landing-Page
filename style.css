@@ -15,29 +15,41 @@
     font-weight: bold;
 }
 
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 
+.information-text {
+    size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 
+.secondary-text {
+    size: 18px;
+    color: #e5e7eb;
+}
 
+.quote-text {
+    color: #e5e7eb;
+}
 
+.section-one {
+    background-color: #1F2937;
+}
 
+.section-three {
+    background-color: #e5e7eb;
+}
 
+.button-color {
+    background-color: #3882f6;
+}
 
+ul {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
