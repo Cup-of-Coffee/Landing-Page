@@ -1,6 +1,7 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .header {
@@ -69,6 +70,7 @@
 }
 
 #large-button {
+    color: #F9FAF8;
     background-color: #3882f6;
     border-radius: 10px;
     padding: 50px;
@@ -88,6 +90,22 @@ ul {
 
 li {
     margin-left: 20px;
+}
+
+.button-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button {
+    background: #3882f6;
+    color: #F9FAF8;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {
