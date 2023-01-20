@@ -38,6 +38,16 @@ body {
     color: #e5e7eb;
 }
 
+.image-square {
+    padding: 100px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    border-style: solid;
+}
+
 .quote-box {
     display: flex;
     text-align: center;
@@ -50,13 +60,18 @@ body {
 
 .quote-header {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1f2937;
+}
+
+.quote-author {
+    text-align: end;
 }
 
 .quote-text {
     font-size: 18px;
     color: #e5e7eb;
+    text-align: center;
 }
 
 .section-one {
@@ -79,10 +94,11 @@ body {
     background-color: #e5e7eb;
     padding-left: 300px;
     padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section-four {
-    
     padding-left: 200px;
     padding-right: 200px;
 }
