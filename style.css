@@ -25,14 +25,27 @@ body {
 }
 
 .information-text {
-    size: 36px;
+    font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondary-text {
     size: 18px;
     color: #e5e7eb;
+}
+
+.quote-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    margin: 20px;
+    background-color: grey;
+    color: #F9FAF8;
 }
 
 .quote-header {
@@ -50,11 +63,16 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section-two {
     padding-left: 300px;
     padding-right: 300px;
+    
 }
 
 .section-three {
@@ -97,7 +115,7 @@ li {
     margin-bottom: auto;
 }
 
-.button {
+button {
     background: #3882f6;
     color: #F9FAF8;
     font-size: 12px;
@@ -106,6 +124,7 @@ li {
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    border-style: solid;
 }
 
 .footer {
